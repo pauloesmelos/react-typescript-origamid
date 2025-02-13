@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import Aula02 from './aula-02/02-interfaces-e-tipos/Aula02';
+import Aula06 from './aula-06/useRef-tsx/Aula06';
 
 const App = () => {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Aula02 />
+      <Aula06 />
     </>
   )
 }
