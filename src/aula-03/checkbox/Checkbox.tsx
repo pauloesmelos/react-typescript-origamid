@@ -1,6 +1,6 @@
-import { useState, useEffect, ChangeEventHandler } from "react";
+import { ChangeEventHandler, ComponentProps, useEffect, useState } from "react";
 
-type LabelProps = {
+type LabelProps = ComponentProps<"input"> & {
     label: string;
 }
 const Checkbox = ({ label }: LabelProps) => {
